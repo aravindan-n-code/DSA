@@ -13,13 +13,13 @@ class Solution {
                     case "*": stack.push(a*b); break;
                     default:break;
                 }
-                System.out.println(stack.peek());
+               
             
             }
             else{
                 
                 stack.push(Integer.parseInt(t));
-                System.out.println(stack.peek());
+               
             }
 
         }
